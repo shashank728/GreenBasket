@@ -13,6 +13,7 @@
 .sec-nav
 {
   background-color: #CABA9C;
+  
 
 }
 
@@ -23,6 +24,7 @@ hero-section
 
 .hero-section{
   background:url(/static/img/bg1.jpg);
+
 }
 
 .card-item {
