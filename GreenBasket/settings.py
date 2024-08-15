@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     
     # my apps
     
-    'home.apps.HomeConfig'
+    'home.apps.HomeConfig',
+    'accounts.apps.AccountsConfig'
 
 ]
 
