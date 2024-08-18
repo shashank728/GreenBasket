@@ -24,6 +24,10 @@ hero-section
 
 .hero-section{
   background:url(/static/img/bg1.jpg);
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+  background-repeat: no-repeat;
 
 }
 
