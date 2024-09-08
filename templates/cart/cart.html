@@ -1,0 +1,56 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="{% static 'CSS\cart.css' %}">
+</head>
+<body>
+    <div class="cart-container">
+        <h1 class="cart-title">Shopping Cart</h1>
+
+        <div class="cart-item">
+            <img src="https://via.placeholder.com/100" alt="Product Image" class="product-image">
+            <div class="product-details">
+                <h2 class="product-name">Green Plant</h2>
+                <p class="product-price">$25.00</p>
+            </div>
+            <div class="product-quantity">
+                <label for="quantity1">Qty:</label>
+                <input type="number" id="quantity1" name="quantity1" value="1" min="1">
+            </div>
+            <div class="product-total">
+                <p>$25.00</p>
+            </div>
+            <button class="remove-item">Remove</button>
+        </div>
+
+        <div class="cart-item">
+            <img src="https://via.placeholder.com/100" alt="Product Image" class="product-image">
+            <div class="product-details">
+                <h2 class="product-name">Succulent Plant</h2>
+                <p class="product-price">$15.00</p>
+            </div>
+            <div class="product-quantity">
+                <label for="quantity2">Qty:</label>
+                <input type="number" id="quantity2" name="quantity2" value="1" min="1">
+            </div>
+            <div class="product-total">
+                <p>$15.00</p>
+            </div>
+            <button class="remove-item">Remove</button>
+        </div>
+
+        <div class="cart-summary">
+            <h2>Cart Summary</h2>
+            <p>Subtotal: <span>$40.00</span></p>
+            <p>Shipping: <span>$5.00</span></p>
+            <p>Total: <span>$45.00</span></p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+</body>
+</html>
